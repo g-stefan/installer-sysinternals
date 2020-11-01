@@ -13,7 +13,7 @@
 Name "Sysinternals"
 
 ; Version
-!define SysinternalsVersion "2020.07.15"
+!define SysinternalsVersion "$%PRODUCT_VERSION%"
 
 ; The file to write
 OutFile "installer\sysinternals-${SysinternalsVersion}-installer.exe"

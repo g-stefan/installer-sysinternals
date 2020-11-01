@@ -5,6 +5,8 @@ rem Created by Grigore Stefan <g_stefan@yahoo.com>
 
 echo -^> make sysinternals
 
+call build.config.cmd
+
 if exist release\ rmdir /Q /S release
 
 mkdir release
