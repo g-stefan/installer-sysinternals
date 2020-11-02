@@ -3,9 +3,9 @@ rem Public domain
 rem http://unlicense.org/
 rem Created by Grigore Stefan <g_stefan@yahoo.com>
 
-echo -^> installer sysinternals
-
 call build.config.cmd
+
+echo -^> installer %PRODUCT_NAME%
 
 if exist installer\ rmdir /Q /S installer
 mkdir installer
@@ -15,6 +15,6 @@ mkdir build
 
 makensis.exe /NOCD "util\sysinternals-installer.nsi"
 
-call grigore-stefan.sign "Sysinternals" "installer\sysinternals-%PRODUCT_VERSION%-installer.exe"
+call grigore-stefan.sign "Sysinternals" "installer\%PRODUCT_BASE%-%PRODUCT_VERSION%-installer.exe"
 
 if exist build\ rmdir /Q /S build
