@@ -3,13 +3,13 @@ rem Public domain
 rem http://unlicense.org/
 rem Created by Grigore Stefan <g_stefan@yahoo.com>
 
-call build.config.cmd
+call build\build.config.cmd
 
 echo -^> make %PRODUCT_NAME%
 
-if exist release\ rmdir /Q /S release
+if exist output\ rmdir /Q /S output
 
-mkdir release
+mkdir output
 
-7z x vendor/SysinternalsSuite.zip -aoa -orelease
+7z x vendor/SysinternalsSuite.zip -aoa -ooutput
 
