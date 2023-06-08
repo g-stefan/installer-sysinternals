@@ -10,7 +10,6 @@
 				"noVersion" : true
 			}
 		],
-		"hasGithub" : true,
 		"sourceLinks" : {
 			"SysinternalsSuite.zip" : "https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite"
 		}
