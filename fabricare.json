@@ -6,7 +6,7 @@
 			{
 				"name" : "installer-sysinternals",
 				"SPDX-License-Identifier": "MIT",
-				"version" : "2024.07.23",
+				"version" : "2025.10.13",
 				"noVersion" : true
 			}
 		],
